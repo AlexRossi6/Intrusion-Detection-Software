@@ -1,4 +1,4 @@
-# TABLUT
+# INTRUSION DETECTION SOFTWARE
 
 <hr>
 
@@ -6,21 +6,21 @@
 ## Libraries Used
 
 - Numpy
-- Socket
-- Time
-- Random
+- cv2
 
 ## How to Run
 
-- make sure you have numpy installed, all the other libraries are included by python3
-- Run the Barbarians.py script using python3 Barbarians.py
-- Follow the on screen steps by choosing either white or black and by choosing a timeout and an ip address.
+run the file Change detection.py to see how it works on the video example.
 
 ## Description
 
-The alghorithm used is based on the tree search , more precisely the minmax. We have decided to give importance to the heuristic function rather than exploring the whole depth of the tree. Using the heuristic implemented we have obtained a good player just by exploring the tree to level 2 depth, our player was fast and efficient. We did not have any time left to code the more deeply exploration of the tree, yet our player still behave quite accurately and good.
+software system that, based on automatic video analysis, can detect objects (intruders) that do not belong to a static reference scene (background) and establish which of such objects are persons.
 
-
-## Authors 
-
-@THEBARBARIANS
+For each video frame, the program provides the following:
+• Frame number
+• Number of objects (intruders) detected
+• For each object:
+o Area
+o Perimeter
+o Classification (person, true object or false object)
+All these features are given as a text file output.
