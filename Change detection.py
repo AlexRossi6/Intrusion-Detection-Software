@@ -5,7 +5,7 @@ import sys
 
 #np.set_printoptions(threshold=sys.maxsize)
 # Open Video
-cap=cv2.VideoCapture('rilevamento-intrusioni-video.avi')
+cap=cv2.VideoCapture('example-video.avi')
 
 
 
