@@ -24,3 +24,5 @@ o Area
 o Perimeter
 o Classification (person, true object or false object)
 All these features are given as a text file output.
+
+![image](https://user-images.githubusercontent.com/56583448/90742914-de113a00-e2cf-11ea-8c91-fd3e114d277b.png)
