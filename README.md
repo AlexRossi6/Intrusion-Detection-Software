@@ -22,12 +22,16 @@ software system that, based on automatic video analysis, can detect objects (int
 
 
 For each video frame, the program provides the following:
+
 • Frame number
 • Number of objects (intruders) detected
-• For each object:
-o Area
-o Perimeter
-o Classification (person, true object or false object)
+
+For each object:
+
+  o Area
+  o Perimeter
+  o Classification (person, true object or false object)
+
 All these features are given as a text file output.
 
 
